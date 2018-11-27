@@ -279,6 +279,19 @@ header {
 	display: block;
 }
 
+/* mobile nav */
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon ion-icon {
+	font-size: 2rem;
+	color: #fff;
+}
+
 /* ------------------------ */
 /* MEALS */
 /* ------------------------ */
