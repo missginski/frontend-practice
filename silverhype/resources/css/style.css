@@ -1,3 +1,24 @@
-h1 {
-	color: red;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+header {
+	color: #1c1c1c;
+	font-family: 'Signika', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
 }
