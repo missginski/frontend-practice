@@ -1,6 +1,9 @@
-let button = $('.toggle-nav');
+const button = $('.toggle-nav');
+const nav = $('nav');
 
-button.on('click', function() {
-  $('nav').toggleClass('active');
-  $('.toggle-nav').toggleClass('close-nav')
-})
+function toggleNav() {
+  button.toggleClass('close-nav');
+  nav.toggleClass('active');
+};
+
+button.on('click', toggleNav);
